@@ -1,6 +1,6 @@
 import Sequelize from "sequelize";
-const data = new Sequelize("projectNodejs", "root", "Duong@0810", {
-  host: "localhost",
+const data = new Sequelize("bcbod7azi9fn4ivko5cq", "udsulhnqss6nmisk", "Hxx3Kp9ozVY1WrJowQkG", {
+  host: "bcbod7azi9fn4ivko5cq-mysql.services.clever-cloud.com",
   dialect: "mysql",
 });
 data

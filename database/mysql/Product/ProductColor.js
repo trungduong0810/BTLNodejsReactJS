@@ -1,6 +1,6 @@
 import { DataTypes, Sequelize } from "sequelize";
 import data from "../connect_db.js";
-// data.options.timezone = "+7:00";
+data.options.timezone = "+7:00";
 const ProductColors = data.define("productColors", {
   colorId: {
     type: DataTypes.BIGINT,

@@ -1,6 +1,6 @@
 import { DataTypes, Sequelize } from "sequelize";
 import data from "../connect_db.js";
-// data.options.timezone = "+7:00";
+data.options.timezone = "+7:00";
 const Users = data.define("users", {
   id: {
     type: DataTypes.INTEGER,
